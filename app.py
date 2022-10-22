@@ -4,8 +4,9 @@ from flask import Flask, request
 app = Flask(__name__) 
   
 @app.route("/") 
-def home_view(): 
-        return '<h1> Your IP address is:' + ip_addr +"</BR>"
+def home_view():
         ip_addr = request.remote_addr
+        return '<h1> Your IP address is:' + ip_addr +"</BR>"
+        
         return "<h1>Welcome to My PY website!</h1>"
   
