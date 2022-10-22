@@ -1,7 +1,6 @@
-# pyweb
+# myip - Heroku Python Web page to show ip.
 
-
-Only for testing Python Web Server
+Python Web Page to show this page's Server Ip, client ip, and proxy ip. 
 
 
 
