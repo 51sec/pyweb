@@ -17,10 +17,10 @@ class MyServer(BaseHTTPRequestHandler):
 myServer = HTTPServer((hostName, hostPort), MyServer)
 print(time.asctime(), "Server Starts - %s:%s" % (hostName, hostPort))
 
-try:
-    myServer.serve_forever()
-except KeyboardInterrupt:
-    pass
+#try:
+#    myServer.serve_forever()
+#except KeyboardInterrupt:
+#    pass
 
 myServer.server_close()
 print(time.asctime(), "Server Stops - %s:%s" % (hostName, hostPort))
