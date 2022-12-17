@@ -7,7 +7,7 @@ Python Web Page to show this page's Server Ip, client ip, and proxy ip.
 
 ## Heroku
 
-api folder
+app folder
 
 gunicorn [OPTIONS] [WSGI_APP]
 
@@ -16,4 +16,4 @@ Where WSGI_APP is of the pattern $(MODULE_NAME):$(VARIABLE_NAME). The module nam
 
 ## vercel
 
-app folder
+api folder
