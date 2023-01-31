@@ -1,4 +1,4 @@
-# myip - Heroku Python Web page to show ip.
+# myip - Python Web page to show ip.
 
 Python Web Page to show this page's Server Ip, client ip, and proxy ip. 
 
